@@ -4,7 +4,7 @@ import Entity.Student;
 
 public class outputHelper {
 	
-	public void studentdetails(Student s) {
+	public static void studentdetails(Student s) {
 		
 		System.out.println("id : "+s.id);
 		System.out.println("First name : "+s.fname);
@@ -12,6 +12,7 @@ public class outputHelper {
 		System.out.println("English marks : "+s.Englishobt);
 		System.out.println("Maths marks : "+s.Mathsobt);
 		System.out.println("Science marks : "+s.Scienceobt);
+		System.out.println("================================");
 		
 		
 	}
