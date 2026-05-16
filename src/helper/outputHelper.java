@@ -6,12 +6,12 @@ public class outputHelper {
 	
 	public static void studentdetails(Student s) {
 		
-		System.out.println("id : "+s.id);
-		System.out.println("First name : "+s.fname);
-		System.out.println("Last name : "+s.lname);
-		System.out.println("English marks : "+s.Englishobt);
-		System.out.println("Maths marks : "+s.Mathsobt);
-		System.out.println("Science marks : "+s.Scienceobt);
+		System.out.println("id : "+s.getId());
+		System.out.println("First name : "+s.getFname());
+		System.out.println("Last name : "+s.getLname());
+		System.out.println("English marks : "+s.getEnglishobt());
+		System.out.println("Maths marks : "+s.getMathsobt());
+		System.out.println("Science marks : "+s.getScienceobt());
 		System.out.println("================================");
 		
 		

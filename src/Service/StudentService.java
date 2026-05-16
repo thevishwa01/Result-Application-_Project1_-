@@ -11,7 +11,7 @@ public class StudentService {
 		for (int i = 0; i < st.length; i++) {
 			Student student = st[i];
 
-			if (student.fname.equalsIgnoreCase(name)) {
+			if (student.getFname().equalsIgnoreCase(name)) {
 				outputHelper.studentdetails(student);
 
 			}
@@ -19,7 +19,7 @@ public class StudentService {
 
 	}
 
-	public void AllStudentDetails(String name) {
+	public void AllStudentDetails() {
 
 		Student[] st = StudentRepository.getAllStudent1();
 		for (int i = 0; i < st.length; i++) {

@@ -35,7 +35,7 @@ public class Test {
 		}
 		case 2: {
 
-			s.AllStudentDetails(null);
+			s.AllStudentDetails();
 
 			break;
 		}
